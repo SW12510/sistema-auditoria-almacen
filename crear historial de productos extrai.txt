@@ -1,0 +1,20 @@
+crear historial de productos extraidos por tarima, no hay diferentes productos por nivel
+pasillo, posición, nivel de piso (numerico, no p1, n35, etc)
+TCA Merksyst
+
+reportes de inventario verificado por usuario
+conteos de producto en base a códigos de barra
+posible uso de dispositivos externos
+
+
+
+que tipos de usuario y permisos deberia asignar a una pagina que requiera realizar las siguientes funciones: 
+
+-Revisión de Inventarios
+-Rotaciones y Caducidades
+-Rastreo de Ubicaciones
+-Verificación de Códigos de Barra
+-Integración con SQL
+-Visualización Web
+-reportes de inventario verificado por usuario
+-conteos de producto en base a códigos de barra

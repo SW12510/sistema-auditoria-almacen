@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencias y librerías (pesan muchísimo, no se suben)
+node_modules/
+
+# Archivos de producción generados automáticamente
+dist/
+build/
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+
+# Archivos de entorno y contraseñas de Base de Datos
+.env
+
+# Certificados de seguridad SSL (¡NUNCA SE SUBEN!)
+server.key
+server.cert
+db.js

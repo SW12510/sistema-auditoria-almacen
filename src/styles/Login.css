@@ -1,0 +1,78 @@
+/* src/styles/Login.css */
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--background-color); /* Usa el color de fondo general */
+}
+
+.login-form {
+  background-color: var(--surface-color); /* Usa el color de superficie */
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  border-top: 5px solid var(--primary-color);
+}
+
+.login-form h2 {
+  text-align: center;
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border-color);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Importante para que el padding no afecte el ancho */
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.error-message {
+  color: #d32f2f; /* Rojo de error */
+  background-color: rgba(211, 47, 47, 0.1);
+  border: 1px solid rgba(211, 47, 47, 0.2);
+  padding: 0.8rem;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+/* Estilo para el botón principal (ya hereda de App.css pero lo reforzamos) */
+.login-form button.primary {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.8rem;
+}
+
+.login-form button:disabled {
+  background-color: var(--text-muted);
+  cursor: not-allowed;
+}
